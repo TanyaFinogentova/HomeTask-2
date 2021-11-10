@@ -4,9 +4,9 @@ public class NameAdress {
         Scanner perData = new Scanner (System.in);
         String name, address;
         System.out.println("What is your name?");
-        name = perData.next();
+        name = perData.nextLine();
         System.out.println("Where are you live, " + name + "?");
-        address = perData.next();
+        address = perData.nextLine();
         System.out.println(name + " lives in " + address);
     }
 }
